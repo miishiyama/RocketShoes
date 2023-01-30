@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif
 }
 
 :root {
     --background-left: #ECECED;
     --background-right: #C4C4C4;
     --text: #9C9696;
-    --background-button: #FF0000;
+    --background-button: #FF0000
 }
 
 body {
-    background: linear-gradient(90deg, var(--background-left) 36%, var(--background-right) 0px);
+    background: linear-gradient(90deg, var(--background-left) 36%, var(--background-right) 0px)
 }
 
 .menu ul {
@@ -21,7 +21,7 @@ body {
     list-style: none;
     justify-content: space-between;
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 60px
 }
 
 .menu ul li a {
@@ -30,16 +30,16 @@ body {
     line-height: 28px;
     color: black;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .logo {
-    margin-top: 39px;
+    margin-top: 39px
 }
 
 .topics,
 .search {
-    margin-top: 42px;
+    margin-top: 42px
 }
 
 .search input {
@@ -52,22 +52,22 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: var(--text);
-    padding-right: 13px;
+    padding-right: 13px
 }
 
 .search input:focus {
     outline: none;
-    border: none;
+    border: none
 }
 
 .search img {
     display: flex;
     margin-top: -31.66px;
-    margin-left: 13px;
+    margin-left: 13px
 }
 
 .carry-bag {
-    margin-top: 47px;
+    margin-top: 47px
 }
 
 main {
@@ -75,7 +75,7 @@ main {
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
         "a b"
-        "c c";
+        "c c"
 }
 
 .left {
@@ -83,7 +83,7 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    grid-area: a;
+    grid-area: a
 }
 
 .left h1 {
@@ -91,7 +91,7 @@ main {
     font-size: 60px;
     line-height: 70px;
     color: black;
-    width: 357px;
+    width: 357px
 }
 
 .left p {
@@ -100,7 +100,7 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: var(--text);
-    margin-top: 21px;
+    margin-top: 21px
 }
 
 .left h2 {
@@ -109,7 +109,7 @@ main {
     line-height: 47px;
     color: black;
     margin-top: 21px;
-    margin-left: -140px;
+    margin-left: -140px
 }
 
 .left button {
@@ -126,7 +126,7 @@ main {
     padding-right: 79px;
     margin-top: 30px;
     cursor: pointer;
-    margin-left: -85px;
+    margin-left: -85px
 }
 
 .right {
@@ -136,17 +136,17 @@ main {
     justify-content: center;
     grid-area: b;
     margin-top: 87.68px;
-    margin-bottom: 40.62px;
+    margin-bottom: 40.62px
 }
 
 .right div {
     display: flex;
-    margin-left: 50px;
+    margin-left: 50px
 }
 
 .tenis-1,
 .tenis-2 {
-    margin-right: 37px;
+    margin-right: 37px
 }
 
 .tenis-1,
@@ -154,18 +154,18 @@ main {
 .tenis-3 {
     border-bottom: 5px solid var(--background-right);
     transition: 0.4s;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .tenis-1:hover,
 .tenis-2:hover,
 .tenis-3:hover {
-    border-bottom: 5px solid var(--background-button);
+    border-bottom: 5px solid var(--background-button)
 }
 
 footer {
     grid-area: "c";
-    height: 166.33px;
+    height: 166.33px
 }
 
 footer ul {
@@ -173,13 +173,13 @@ footer ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 
 .video {
     width: 250px;
     height: 166.33px;
-    margin-bottom: -5px;
+    margin-bottom: -5px
 }
 
 footer ul li a {
@@ -188,7 +188,7 @@ footer ul li a {
     font-size: 18px;
     line-height: 21px;
     color: black;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .explore-more {
@@ -196,7 +196,7 @@ footer ul li a {
     padding-top: 71px;
     padding-bottom: 67px;
     padding-left: 116px;
-    padding-right: 116px;
+    padding-right: 116px
 }
 
 .explore-more a {
@@ -204,9 +204,9 @@ footer ul li a {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: white;
+    color: white
 }
 
 .explore-more a p {
-    margin-right: 14px;
+    margin-right: 14px
 }
