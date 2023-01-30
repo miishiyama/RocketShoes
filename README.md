@@ -2,8 +2,11 @@
 ![preview](./preview/RocketShoes.png)
 
 ## Projeto 💻
-Projeto de um desafio da Rocketseat de desenvolver um mini e-commerce de calçados esportivos. <br>
-(https://www.figma.com/file/QFTF46zzEkizffVMFqGE0d/DD-%2F-RocketShoes-(Copy)?t=Nv8tndpiYknrXHqh-6)
+Projeto de um desafio da Rocketseat de desenvolver um mini e-commerce de calçados esportivos.
+
+## Layout 🔖
+Segue abaixo o layout deste projeto:
+- [Figma](https://www.figma.com/file/QFTF46zzEkizffVMFqGE0d/DD-%2F-RocketShoes-(Copy)?t=Nv8tndpiYknrXHqh-6)
 
 ## Instalação 🛠
 Siga esses passos para instalar o repositório na sua máquina:
@@ -13,6 +16,7 @@ Siga esses passos para instalar o repositório na sua máquina:
 As tecnologias utilizadas neste projeto são:
 - HTML
 - CSS
+- Google Fonts
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
